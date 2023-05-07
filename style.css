@@ -1,0 +1,151 @@
+*{
+    font-family:monospace; 
+}
+
+header h1,nav,ul,li{
+    display: inline;
+    
+    
+}
+
+header{
+    background-color: black;
+    
+}
+
+h1{
+    font-size: 74px;
+    background-color: aquamarine;
+    color: black;
+    margin-right: 15%;
+    padding-left: 50px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+header a{
+    color: aquamarine;
+    font-size: 30px;
+    margin-right: 40px;
+    text-decoration: none;
+    border-bottom: 3px solid aquamarine;
+    padding-bottom: 3px;
+   
+    
+    
+
+}
+
+img{
+    width:100%;
+    height: inherit;
+    
+}
+
+div.background{
+    height: 250px;
+    position: relative;
+}
+
+h2{
+    background-color: aquamarine;
+    display: inline;
+    font-size: 60px;
+    position: absolute;
+    right: 100px;
+    bottom: 40px;
+    padding: 10px;
+
+}
+
+section.about-me{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   width:100%;
+   margin-bottom: 90px;
+   margin-top: 40px;
+   position: relative;
+    left: 54px;
+}
+
+section.about-me h3{
+    font-size: 65px;
+    margin-right: 15px;
+    border-right: 5px solid black;
+    padding-right: 30px;
+}
+
+div.img-work img{
+    width:480px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    height:200px;
+    border: 7px solid aquamarine;
+    
+}
+
+section.work{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 90px;
+
+    
+   
+}
+section.work h4{
+    font-size: 65px;
+    margin-right: 50px;
+    border-right: 5px solid black;
+    padding-right: 30px;
+}
+
+
+#Main-Project{
+    width: 100%;
+    height: 400px
+}
+
+div.img-work{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px
+}
+
+section.contact-me h5{
+    font-size: 65px;
+   
+    border-right: 5px solid black;
+    padding-right: 30px;
+}
+
+section.contact-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+    
+  
+
+}
+
+section.contact-me li{
+    margin-left: 60px;
+    font-size: 26px;
+}
+
+section.contact-me div{
+    margin-top:50px;
+
+}
+
+pre{
+    font-size: 17px;
+    line-height: 50px;
+    position: relative;
+    right: 70px;
+    
+}
+
